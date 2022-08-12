@@ -3,5 +3,34 @@
   height: 100%;
   display: flex;
   background-color: black;
+  justify-content: center;
+  align-items: center
 }
+
+.Tablero {
+  width: 500px;
+  background-color: white;
+  height: 500px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . .";
+}
+
+.Ivory {
+  background-color: bisque;
+}
+
+.Brown {
+  background-color: brown;
+}
+
 
